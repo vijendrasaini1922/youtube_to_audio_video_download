@@ -8,6 +8,11 @@ import os
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 import tempfile
 from rest_framework import status
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse("Welcome To Vijay World")
+
 
 class DownloadAudioView(APIView):
     parser_classes = [JSONParser]
