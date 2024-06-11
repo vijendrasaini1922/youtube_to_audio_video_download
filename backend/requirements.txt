@@ -17,6 +17,7 @@ pep517==0.13.1
 pillow==10.3.0
 proglog==0.1.10
 pydub==0.25.1
+python-dotenv==1.0.1
 pytube==15.0.0
 requests==2.32.3
 setuptools==70.0.0
